@@ -3,7 +3,7 @@ The best reason for choosing jenkins.war for setting up jenkins is it is platfor
 ### Step 1 : Install Jenkins
 run the script "install_jenkins.sh". Its a complete script capable for doing all the required setup. Post execution of the script, you should be able to access the jenkins on port 8080.
 
-http://<IP ADDRESS/DNS>:8080
+**_http://<IP ADDRESS/DNS>:8080_**
 
 ### Step 2 : Setup Jenkins (Post installation setup wizard)
 After running Jenkins using the procedures above, the post-installation setup wizard begins.
@@ -13,4 +13,4 @@ This setup wizard takes you through a few quick "one-off" steps to unlock Jenkin
 Unlocking Jenkins
 When you first access a new Jenkins instance, you are asked to unlock it using an automatically-generated password.
 
-Browse to http://<IP Address/DNS>:8080 (or whichever port you configured for Jenkins when installing it) and wait until the Unlock Jenkins page appears.
+Browse to **_http://<IP Address/DNS>:8080_** (or whichever port you configured for Jenkins when installing it) and wait until the Unlock Jenkins page appears.
