@@ -4,7 +4,7 @@ mkdir /data
 mkdir /data/jenkinsprod
 
 # install pre-requisites
-apt install openjdk-8-jdk -y
+yum install openjdk-8-jdk -y
 
 # download the jenkins war file
 wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war
